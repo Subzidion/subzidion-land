@@ -74,6 +74,19 @@ export default function Home() {
           </Card>
           <Card>
             <div className="p-2">
+              <h1>The Boeing Company</h1>
+              <h2>IT Intern</h2>
+              <h3>Bellevue, Washington</h3>
+              <h4>Summer 2016</h4>
+              <p>In the summer of 2016, I completed a 3 month internship at Boeing as part of their IT organization.</p>
+            </div>
+            <div className="p-2">
+              <h5>Systems Integration</h5>
+              <p>I worked in the Systems Integration department of Boeing's IT. While there, I reduced operating costs by creating a Powershell and C# application to automate the management of Windows servers. I advised and mentored fellow interns on their projects, helping them work through technical issues and identify design improvements. I also led a hackathon team that helped identify solutions for improvements to Boeing Factory processes.</p>
+            </div>
+          </Card>
+          <Card>
+            <div className="p-2">
               <h1>North Carolina State University</h1>
               <h2>B.S. Computer Science, B.A. Psychology, Minor in Cognitive Science</h2>
               <h3>Raleigh, North Carolina</h3>

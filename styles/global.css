@@ -6,26 +6,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  color: #353535;
-  background-color: #84A98C;
+  color: theme(colors.jet);
+  background-color: theme(colors.cambridgeBlue);
 }
 
 a {
   color: #297373;
+  color: theme(colors.myrtleGreen);
   text-decoration: underline;
 }
 
 a:visited {
-  color: #635160;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  color: theme(colors.eggplant));
 }
 
 p {
@@ -64,8 +56,4 @@ h5 {
 
 h6 {
   font-style: italic;
-}
-
-.card {
-  background-color: #FAFAFA;
 }

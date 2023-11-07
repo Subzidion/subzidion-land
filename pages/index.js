@@ -18,13 +18,13 @@ export default function Home() {
               <h2>Senior Software Engineer</h2>
               <h3>Seattle, Washington</h3>
             </div>
-            <div className="p-2">
+            <div className="px-2 lg:p-2">
               <p>I'm a Software Engineer specializing in building enterprise-scale, resilient <b>distributed systems</b> and leading software teams through technical projects, <u>from design to launch</u>.</p>
             </div>
-            <div className="p-2">
+            <div className="px-2 lg:p-2">
               <p>I've developed this expertise from over 6 years of working in my role as a Software Development Engineer at <b>Amazon Web Services</b>, especially as a technical lead on both <b>AWS Hyperplane</b> and <b>AWS VPC's NAT Gateway</b>.</p>
             </div>
-            <div className="p-2">
+            <div className="px-2 lg:p-2">
               <p>Outside of software, you can typically find me meandering Seattle sidewalks, watching the Seahawks, or discussing broadband.</p>
             </div>
             <div className="flex justify-evenly p-2">
@@ -46,10 +46,12 @@ export default function Home() {
         <div className="col-span-4 lg:overflow-auto">
           <Card>
             <div className="p-2">
-              <h1>Amazon Web Services</h1>
-              <h2>Software Development Engineer</h2>
-              <h3>Seattle, Washington</h3>
-              <h4>2017-Present</h4>
+              <div className="pb-2">
+                <h1>Amazon Web Services</h1>
+                <h2>Software Development Engineer</h2>
+                <h3>Seattle, Washington</h3>
+                <h4>2017-Present</h4>
+              </div>
               <p>I started my full-time software engineering career at Amazon Web Services out of college. At Amazon Web Services, I've learned what it means to run critical systems at the scale of the largest cloud provider. The scale of systems at Amazon has given me a unique perspective and knowledge that informs every design I work on. Amazon has also given me significant experience in high-pressure operational events, driving resolutions, and effectively communicating status. This experience has taught a valuable lesson as well: always build resillient systems.</p>
             </div>
             <div className="p-2">
@@ -74,10 +76,12 @@ export default function Home() {
           </Card>
           <Card>
             <div className="p-2">
-              <h1>The Boeing Company</h1>
-              <h2>IT Intern</h2>
-              <h3>Bellevue, Washington</h3>
-              <h4>Summer 2016</h4>
+              <div className="pb-2">
+                <h1>The Boeing Company</h1>
+                <h2>IT Intern</h2>
+                <h3>Bellevue, Washington</h3>
+                <h4>Summer 2016</h4>
+              </div>
               <p>In the summer of 2016, I completed a 3 month internship at Boeing as part of their IT organization.</p>
             </div>
             <div className="p-2">

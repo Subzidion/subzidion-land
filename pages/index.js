@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Card from '../components/card';
+import Highlight from '../components/highlight';
 
 export default function Home() {
   return (
@@ -26,6 +27,18 @@ export default function Home() {
             </div>
             <div className="px-2 lg:p-2">
               <p>Outside of software, you can typically find me meandering Seattle sidewalks, watching the Seahawks, or discussing broadband.</p>
+            </div>
+            <div className="p-2 leading-9">
+              <span className="text-center"><h5>Technology Skills</h5></span>
+              <div>
+                <p><b>Proficient</b>: <Highlight mode="proficient">AWS</Highlight> <Highlight mode="proficient">Java</Highlight> <Highlight mode="proficient">Distributed Systems</Highlight></p>
+              </div>
+              <div>
+                <p><b>Familiar</b>: <Highlight mode="familiar">React</Highlight> <Highlight mode="familiar">NextJS</Highlight> <Highlight mode="familiar">Python</Highlight> <Highlight mode="familiar">Django</Highlight></p>
+              </div>
+              <div>
+                <p><b>Learning</b>: <Highlight mode="learning">Rust</Highlight></p>
+              </div>
             </div>
             <div className="flex justify-evenly p-2">
               <div>

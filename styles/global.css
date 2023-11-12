@@ -7,16 +7,16 @@ body {
   padding: 0;
   margin: 0;
   color: theme(colors.jet);
-  background-color: theme(colors.cambridgeBlue);
+  background-color: theme(colors.green);
 }
 
 a {
-  color: theme(colors.myrtleGreen);
+  color: theme(colors.darkBlue);
   text-decoration: underline;
 }
 
 a:visited {
-  color: theme(colors.eggplant);
+  color: theme(colors.darkRed);
 }
 
 p {
@@ -55,4 +55,26 @@ h5 {
 
 h6 {
   font-style: italic;
+}
+
+.polka-proficient {
+  background-color: theme(colors.blue);
+  background-image:  radial-gradient(theme(colors.darkBlue) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkBlue) 0.4px, theme(colors.blue) 0.4px);
+  background-size: 16px 16px;
+  background-position: 0 0,8px 8px;
+}
+
+.polka-familiar {
+  background-color: theme(colors.red);
+  background-image:  radial-gradient(theme(colors.darkRed) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkRed) 0.4px, theme(colors.red) 0.4px);
+  background-size: 16px 16px;
+  background-position: 0 0,8px 8px;
+}
+
+
+.polka-learning {
+  background-color: theme(colors.green);
+  background-image:  radial-gradient(theme(colors.darkGreen) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkGreen) 0.4px, theme(colors.green) 0.4px);
+  background-size: 16px 16px;
+  background-position: 0 0,8px 8px;
 }

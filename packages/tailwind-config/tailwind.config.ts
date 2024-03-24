@@ -1,16 +1,11 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from "tailwindcss";
 
-const colors = require('tailwindcss/colors')
-
-module.exports = {
-  content: [
-    "./components/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/*.{js,ts,jsx,tsx,mdx}",
-  ],
+// We want each package to be responsible for its own content.
+const config: Omit<Config, "content"> = {
   theme: {
     extend: {},
     colors: {
-      black: colors.black,
+      black: "#000000",
       seasalt: "#FAFAFA",
       jet: "#353535",
       lightBlue: "#A4DEDE",
@@ -27,3 +22,4 @@ module.exports = {
   plugins: [],
 }
 
+export default config;

@@ -59,22 +59,39 @@ h6 {
 
 .polka-proficient {
   background-color: theme(colors.blue);
-  background-image:  radial-gradient(theme(colors.darkBlue) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkBlue) 0.4px, theme(colors.blue) 0.4px);
+  background-image: radial-gradient(
+      theme(colors.darkBlue) 0.4px,
+      transparent 0.4px
+    ),
+    radial-gradient(theme(colors.darkBlue) 0.4px, theme(colors.blue) 0.4px);
   background-size: 16px 16px;
-  background-position: 0 0,8px 8px;
+  background-position:
+    0 0,
+    8px 8px;
 }
 
 .polka-familiar {
   background-color: theme(colors.red);
-  background-image:  radial-gradient(theme(colors.darkRed) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkRed) 0.4px, theme(colors.red) 0.4px);
+  background-image: radial-gradient(
+      theme(colors.darkRed) 0.4px,
+      transparent 0.4px
+    ),
+    radial-gradient(theme(colors.darkRed) 0.4px, theme(colors.red) 0.4px);
   background-size: 16px 16px;
-  background-position: 0 0,8px 8px;
+  background-position:
+    0 0,
+    8px 8px;
 }
-
 
 .polka-learning {
   background-color: theme(colors.green);
-  background-image:  radial-gradient(theme(colors.darkGreen) 0.4px, transparent 0.4px), radial-gradient(theme(colors.darkGreen) 0.4px, theme(colors.green) 0.4px);
+  background-image: radial-gradient(
+      theme(colors.darkGreen) 0.4px,
+      transparent 0.4px
+    ),
+    radial-gradient(theme(colors.darkGreen) 0.4px, theme(colors.green) 0.4px);
   background-size: 16px 16px;
-  background-position: 0 0,8px 8px;
+  background-position:
+    0 0,
+    8px 8px;
 }

@@ -1,0 +1,40 @@
+{
+  "name": "subzidion-seattle-wa-us",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.1.4",
+    "@repo/ui": "workspace:*",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rehype-pretty-code": "^0.13.0",
+    "shiki": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^14.1.1",
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.18",
+    "@repo/eslint-config": "workspace:*",
+    "postcss": "^8.4.35",
+    "@repo/tailwind-config": "workspace:*",
+    "tailwindcss": "^3.4.1",
+    "@repo/typescript-config": "workspace:*",
+    "typescript": "^5.3.3"
+  }
+}

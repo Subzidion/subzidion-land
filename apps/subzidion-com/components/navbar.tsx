@@ -4,12 +4,15 @@ import { Card } from "@repo/ui/card";
 export default function Sidebar(): JSX.Element {
   return (
     <Card>
-      <div className="w-full p-2">
-        <Link href="/">
-          <h1>Home</h1>
+      <div className="flex flex-wrap justify-evenly w-full p-2">
+        <Link className="font-bold p-2" href="/">
+          Home
         </Link>
-        <Link href="/career">
-          <h1>Career</h1>
+        <Link className="font-bold p-2" href="/career">
+          Career
+        </Link>
+        <Link className="font-bold p-2" href="/blogroll">
+          Blogroll
         </Link>
       </div>
     </Card>

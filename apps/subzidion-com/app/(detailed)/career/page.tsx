@@ -1,6 +1,6 @@
 import { Card } from "@repo/ui/card";
 
-export default function Home(): JSX.Element {
+export default function Career(): JSX.Element {
   return (
     <span>
       <Card>

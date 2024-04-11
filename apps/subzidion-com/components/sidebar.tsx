@@ -2,9 +2,13 @@ import { Card } from "@repo/ui/card";
 import Me from "@/components/me";
 import Socials from "@/components/socials";
 
-export default function Sidebar(): JSX.Element {
+export default function Sidebar({
+  className,
+}: {
+  className: string;
+}): JSX.Element {
   return (
-    <Card>
+    <Card className={className}>
       <Me />
       <Socials />
       <div className="p-2 text-xs text-center">

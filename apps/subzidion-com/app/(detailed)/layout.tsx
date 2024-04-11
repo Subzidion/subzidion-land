@@ -10,7 +10,7 @@ export default function DetailedLayout({
     <main className="w-full grid grid-cols-1 lg:grid-cols-6 lg:gap-6">
       <div className="col-span-2">
         <Navbar />
-        <Sidebar />
+        <Sidebar className="hidden lg:block" />
       </div>
       <div className="col-span-4 lg:overflow-auto">{children}</div>
     </main>
